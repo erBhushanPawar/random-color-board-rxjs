@@ -1,0 +1,10 @@
+.square {
+  height: 15px;
+  width: 15px;
+  background: whitesmoke;
+  display: inline-block;
+  margin: 1px;
+}
+.row {
+  margin: 1px;
+}
