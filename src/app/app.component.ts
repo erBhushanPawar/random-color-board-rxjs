@@ -7,7 +7,7 @@ import { BehaviorSubject } from "rxjs";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = "Random color Chess with Behavior Subject";
+  title = "Random color board with Behavior Subject";
   bs: BehaviorSubject<number[]> = new BehaviorSubject([0, 0]);
   board = [[{ color: "blue" }, { color: "orange" }]];
   constructor() {
